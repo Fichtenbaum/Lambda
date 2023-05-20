@@ -1,0 +1,90 @@
+/***************************/
+/* HEADER */
+/**************************/
+.wrapper {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  padding-left: 18rem;
+  position: absolute;
+  gap: 2.2rem;
+}
+
+.promo {
+  background-image: url("/img/promo-background.png");
+  box-shadow: inset 0px 70px 40px rgb(0 0 0 / 30%);
+  min-height: 75rem;
+}
+
+.logo {
+  color: #fff;
+  font-family: "Yeseva One", cursive;
+  font-size: 3.6rem;
+  font-weight: 400;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24rem;
+}
+
+.header-nav-list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 0.8rem;
+  height: 12rem;
+}
+
+.header-nav-link:link,
+.header-nav-link:visited {
+  /* display: inline-block; */
+  display: flex;
+  align-items: center;
+  height: 12rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-decoration: none;
+  color: #fff;
+  font-size: 2.1rem;
+  font-family: "Gentium Plus", serif;
+  font-weight: 700;
+  position: relative;
+}
+
+.header-nav-link:hover::after,
+.header-nav-link:active::after,
+.header-nav-link.is-active::after {
+  opacity: 0.8;
+}
+
+.header-nav-link::after {
+  opacity: 0;
+  content: "";
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  height: 0.3rem;
+  width: 100%;
+  background: #fff;
+}
+
+.header-social {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 2rem;
+}
+
+.social-icon {
+  color: #dab33e;
+  width: 2rem;
+  height: 2rem;
+}
