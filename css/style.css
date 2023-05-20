@@ -1,54 +1,52 @@
 /***************************/
 /* HEADER */
 /**************************/
-.wrapper {
-  max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-}
-
 .header {
   display: flex;
   padding-left: 18rem;
+  padding-right: 18rem;
   position: absolute;
   gap: 2.2rem;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .promo {
-  background-image: url("/img/promo-background.png");
-  box-shadow: inset 0px 70px 40px rgb(0 0 0 / 30%);
+  background-image: url("/img/promo-background.jpg");
+  box-shadow: inset 0px 140px 40px rgb(0 0 0 / 30%);
   min-height: 75rem;
 }
 
 .logo {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
   color: #fff;
-  font-family: "Yeseva One", cursive;
   font-size: 3.6rem;
-  font-weight: 400;
+  height: 12rem;
+  width: 100%;
 }
 
 .nav {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 24rem;
+  align-self: stretch;
 }
 
 .header-nav-list {
   display: flex;
   list-style: none;
-  align-items: center;
   gap: 0.8rem;
-  height: 12rem;
+}
+
+li {
+  align-items: center;
+  display: flex;
+  position: relative;
 }
 
 .header-nav-link:link,
 .header-nav-link:visited {
-  /* display: inline-block; */
-  display: flex;
-  align-items: center;
-  height: 12rem;
   padding-left: 2rem;
   padding-right: 2rem;
   text-decoration: none;
@@ -56,16 +54,18 @@
   font-size: 2.1rem;
   font-family: "Gentium Plus", serif;
   font-weight: 700;
-  position: relative;
 }
 
 .header-nav-link:hover::after,
 .header-nav-link:active::after,
 .header-nav-link.is-active::after {
   opacity: 0.8;
+  transition: all 0.5s;
 }
 
 .header-nav-link::after {
+  display: flex;
+  align-items: flex-start;
   opacity: 0;
   content: "";
   position: absolute;
@@ -79,12 +79,28 @@
 .header-social {
   display: flex;
   list-style: none;
-  align-items: center;
   gap: 2rem;
+}
+
+.header-social-link:link,
+.header-social-link:visited {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.6rem;
+  height: 3.6rem;
+}
+
+.header-social-link:active,
+.header-social-link:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  transition: all 0.5s;
 }
 
 .social-icon {
   color: #dab33e;
   width: 2rem;
   height: 2rem;
+  padding: 2px;
 }
