@@ -1,0 +1,32 @@
+/* 
+- Font size system (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+ */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  max-width: 160rem;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+body {
+  font-family: "Yeseva One", cursive;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
