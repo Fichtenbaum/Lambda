@@ -8,8 +8,8 @@
   position: absolute;
   gap: 2.2rem;
   align-items: center;
-  justify-content: center;
   width: 100%;
+  height: 12rem;
 }
 
 .promo {
@@ -19,17 +19,12 @@
 }
 
 .logo {
-  display: flex;
-  align-items: center;
-  margin-left: auto;
+  margin-right: auto;
   color: #fff;
   font-size: 3.6rem;
-  height: 12rem;
-  width: 100%;
 }
 
 .nav {
-  display: flex;
   align-self: stretch;
 }
 
@@ -37,12 +32,14 @@
   display: flex;
   list-style: none;
   gap: 0.8rem;
+  height: 100%;
 }
 
 li {
-  align-items: center;
   display: flex;
   position: relative;
+  align-items: center;
+  /* height: 100%; */
 }
 
 .header-nav-link:link,
@@ -60,20 +57,18 @@ li {
 .header-nav-link:active::after,
 .header-nav-link.is-active::after {
   opacity: 0.8;
-  transition: all 0.5s;
 }
 
 .header-nav-link::after {
-  display: flex;
-  align-items: flex-start;
   opacity: 0;
   content: "";
   position: absolute;
   top: 0%;
   right: 0%;
-  height: 0.3rem;
+  height: 3px;
   width: 100%;
   background: #fff;
+  transition: opacity 0.3s ease-in;
 }
 
 .header-social {
@@ -87,20 +82,19 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 3.6rem;
-  height: 3.6rem;
+  border-radius: 4px;
+  width: 3.2rem;
+  height: 3.2rem;
+  transition: all 0.5s;
 }
 
 .header-social-link:active,
 .header-social-link:hover {
   background-color: rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
-  transition: all 0.5s;
 }
 
 .social-icon {
   color: #dab33e;
   width: 2rem;
   height: 2rem;
-  padding: 2px;
 }
