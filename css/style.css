@@ -122,3 +122,24 @@ IMG.decoration {
   margin-left: auto;
   margin-right: auto;
 }
+
+.promo-button-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding-top: 1.2rem;
+  gap: 3rem;
+}
+
+.button {
+  text-align: center;
+  font-size: 1.8rem;
+  font-family: "Lato", regular;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 23rem;
+  height: 5.8rem;
+}
