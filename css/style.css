@@ -16,6 +16,10 @@
   background-image: url("/img/promo-background.png");
   box-shadow: inset 0px 140px 40px rgb(0 0 0 / 30%);
   min-height: 75rem;
+  padding-top: 12rem;
+
+  display: table;
+  width: 100%;
 }
 
 .logo {
@@ -98,15 +102,20 @@ li {
   height: 2rem;
 }
 
+.promo-block {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
 .content {
   font-size: 9rem;
   line-height: 1.4;
   color: #fff;
-  text-align: center;
-  padding-top: 23rem;
   padding-left: 32rem;
   padding-right: 32rem;
   text-shadow: 1px 1px 2px black;
+  display: block;
 }
 
 .promo-decoration {
