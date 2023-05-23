@@ -13,9 +13,6 @@
 }
 
 .promo {
-  /* display: flex; */
-  justify-content: center;
-  /* align-items: center; */
   background-image: url("/img/promo-background.png");
   box-shadow: inset 0px 140px 40px rgb(0 0 0 / 30%);
   min-height: 75rem;
@@ -42,7 +39,6 @@ li {
   display: flex;
   position: relative;
   align-items: center;
-  /* height: 100%; */
 }
 
 .header-nav-link:link,
@@ -104,7 +100,7 @@ li {
 
 .content {
   font-size: 9rem;
-  line-height: 1.2;
+  line-height: 1.4;
   color: #fff;
   text-align: center;
   padding-top: 23rem;
@@ -123,23 +119,38 @@ IMG.decoration {
   margin-right: auto;
 }
 
-.promo-button-list {
+.promo-btn {
   display: flex;
   justify-content: center;
-  align-items: center;
-  list-style: none;
-  padding-top: 1.2rem;
   gap: 3rem;
+  padding-top: 4.8rem;
 }
 
-.button {
-  text-align: center;
-  font-size: 1.8rem;
-  font-family: "Lato", regular;
-  color: #fff;
-  text-transform: uppercase;
+.btn:link,
+.btn:visited {
   text-decoration: none;
-  background-color: rgba(0, 0, 0, 0.2);
-  width: 23rem;
-  height: 5.8rem;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  font-size: 1.8rem;
+  padding: 2.1rem 5.3rem;
+  transition: all 0.5s;
+}
+
+.btn-black {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.btn-black:active,
+.btn-black:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.btn-white {
+  background-color: rgb(255, 255, 255, 0.3);
+}
+
+.btn-white:active,
+.btn-white:hover {
+  background-color: rgb(255, 255, 255, 0.5);
 }
