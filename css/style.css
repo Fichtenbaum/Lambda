@@ -20,6 +20,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .logo {
@@ -112,21 +113,18 @@ li {
   text-shadow: 1px 1px 2px black;
 }
 
-.promo-decoration {
-  padding-top: 3.2rem;
-}
-
 IMG.decoration {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 3.2rem;
 }
 
 .promo-btn {
   display: flex;
   justify-content: center;
   gap: 3rem;
-  padding-top: 4.8rem;
+  margin-top: 4.8rem;
 }
 
 .btn:link,
