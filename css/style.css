@@ -115,9 +115,12 @@ li {
 
 .decoration {
   display: block;
+  margin-top: 3.2rem;
+}
+
+.promo.decoration {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 3.2rem;
 }
 
 .promo-btn {
