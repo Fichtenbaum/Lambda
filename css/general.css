@@ -14,11 +14,10 @@
 
 html {
   font-size: 62.5%;
-  overflow-x: hidden;
 }
 
 .wrapper {
-  max-width: 160rem;
+  width: 160rem;
   margin-left: auto;
   margin-right: auto;
   position: relative;
