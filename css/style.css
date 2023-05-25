@@ -16,6 +16,11 @@
   background-image: url("/img/promo-background.png");
   box-shadow: inset 0px 140px 40px rgb(0 0 0 / 30%);
   min-height: 75rem;
+  padding-top: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .logo {
@@ -39,7 +44,6 @@ li {
   display: flex;
   position: relative;
   align-items: center;
-  /* height: 100%; */
 }
 
 .header-nav-link:link,
@@ -97,4 +101,54 @@ li {
   color: #dab33e;
   width: 2rem;
   height: 2rem;
+}
+
+.content {
+  font-size: 9rem;
+  line-height: 1.4;
+  text-align: center;
+  color: #fff;
+  padding-left: 32rem;
+  padding-right: 32rem;
+  text-shadow: 1px 1px 2px black;
+}
+
+.promo .decoration {
+  margin-top: 3.2rem;
+}
+
+.promo-btn {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 4.8rem;
+}
+
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  font-size: 1.8rem;
+  padding: 2.1rem 5.3rem;
+  transition: all 0.5s;
+}
+
+.btn-black {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.btn-black:active,
+.btn-black:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.btn-white {
+  background-color: rgb(255, 255, 255, 0.3);
+}
+
+.btn-white:active,
+.btn-white:hover {
+  background-color: rgb(255, 255, 255, 0.5);
 }
