@@ -152,3 +152,49 @@ li {
 .btn-white:hover {
   background-color: rgb(255, 255, 255, 0.5);
 }
+
+.about {
+  background-image: url(/img/pattern-about-section.png);
+  background-repeat: repeat;
+  display: flex;
+  gap: 6rem;
+  min-height: 70rem;
+  padding-left: 29rem;
+  padding-right: 29rem;
+  padding-top: 7.5rem;
+}
+
+.content-about {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 3rem;
+}
+
+.right-food {
+  font-size: 3.6rem;
+  text-align: center;
+  color: #cc9900;
+}
+
+.divider {
+  margin-top: 1.5rem;
+}
+
+.description {
+  font-size: 1.6rem;
+  line-height: 1.4;
+  font-family: "Lato", Regular;
+  margin-top: 3.3rem;
+  text-align: center;
+}
+.cook {
+  margin-top: 5.2rem;
+}
+
+.dish {
+  height: 55rem;
+  width: 55rem;
+  border-radius: 50%;
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.5);
+}
