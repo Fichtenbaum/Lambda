@@ -155,24 +155,30 @@ li {
 
 .about {
   background-image: url(/img/pattern-about-section.png);
-  background-repeat: repeat;
   display: flex;
-  gap: 6rem;
-  min-height: 70rem;
-  padding-left: 29rem;
-  padding-right: 29rem;
+  justify-content: center;
   padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
 }
 
-.content-about {
+.about-body {
+  display: flex;
+  width: 100%;
+  gap: 6rem;
+  max-width: 105rem;
+}
+
+.about-content {
   display: flex;
   align-items: center;
   flex-direction: column;
   padding-top: 3rem;
 }
 
-.right-food {
+.about-header {
+  font-family: "Yeseva One", cursive;
   font-size: 3.6rem;
+  font-weight: 500;
   text-align: center;
   color: #cc9900;
 }
@@ -181,10 +187,11 @@ li {
   margin-top: 1.5rem;
 }
 
-.description {
+.about-text {
   font-size: 1.6rem;
   line-height: 1.4;
   font-family: "Lato", Regular;
+  color: #4c4c4c;
   margin-top: 3.3rem;
   text-align: center;
 }
