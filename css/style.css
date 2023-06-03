@@ -200,9 +200,6 @@ li {
 }
 .ingredients {
   background-image: url(/img/ingredients-background.png);
-  /* padding-top: 9.9rem;
-  padding-bottom: 9.9rem;
-  padding-right: 21.4rem; */
   padding: 9.9rem 21.4rem 9.9rem 21.4rem;
 }
 
