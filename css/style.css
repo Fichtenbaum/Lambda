@@ -175,9 +175,6 @@ li {
 }
 
 .about-header {
-  font-family: "Yeseva One", cursive;
-  font-size: 3.6rem;
-  font-weight: 500;
   text-align: center;
   color: #cc9900;
 }
@@ -187,9 +184,6 @@ li {
 }
 
 .about-text {
-  font-size: 1.6rem;
-  line-height: 1.4;
-  font-family: "Lato", Regular;
   color: #4c4c4c;
   margin-top: 3.3rem;
   text-align: center;
@@ -203,4 +197,50 @@ li {
   width: 55rem;
   border-radius: 50%;
   box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.5);
+}
+.ingredients {
+  background-image: url(/img/ingredients-background.png);
+  padding: 9.9rem 21.4rem 9.9rem 21.4rem;
+}
+
+.ingredients-body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: auto;
+  padding-top: 8.2rem;
+  padding-bottom: 8.2rem;
+  width: 57rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ingredients-header {
+  color: #fff;
+}
+
+.white-divider {
+  margin-top: 1.6rem;
+}
+
+.ingredients-text {
+  text-align: center;
+  padding-left: 7.7rem;
+  padding-right: 7.7rem;
+  color: #fff;
+  margin-top: 3rem;
+}
+
+.ingredients-images {
+  display: flex;
+  gap: 3rem;
+  margin-top: 7rem;
+}
+
+.ingredients-images img {
+  width: 10rem;
+  height: 10rem;
+  object-fit: none;
+  object-position: 28% 40%;
+  border-radius: 50%;
+  border: 5px solid rgb(85, 85, 85, 0.5);
 }
