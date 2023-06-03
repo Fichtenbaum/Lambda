@@ -30,15 +30,13 @@ body {
   color: #555;
 }
 
-.about-header,
-.ingredients-header {
+.section-heading {
   font-family: "Yeseva One", cursive;
   font-size: 3.6rem;
   font-weight: 500;
 }
 
-.about-text,
-.ingredients-text {
+.section-text {
   font-size: 1.6rem;
   line-height: 1.5;
   font-family: "Lato", Regular;

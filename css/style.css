@@ -200,8 +200,10 @@ li {
 }
 .ingredients {
   background-image: url(/img/ingredients-background.png);
-  padding-top: 9.9rem;
+  /* padding-top: 9.9rem;
   padding-bottom: 9.9rem;
+  padding-right: 21.4rem; */
+  padding: 9.9rem 21.4rem 9.9rem 21.4rem;
 }
 
 .ingredients-body {
@@ -209,7 +211,6 @@ li {
   align-items: center;
   flex-direction: column;
   margin-left: auto;
-  margin-right: 21.4rem;
   padding-top: 8.2rem;
   padding-bottom: 8.2rem;
   width: 57rem;
@@ -232,14 +233,17 @@ li {
   margin-top: 3rem;
 }
 
-.ingredients-img {
+.ingredients-images {
   display: flex;
-  gap: 4rem;
+  gap: 3rem;
   margin-top: 7rem;
 }
 
-.ingredients-img img {
+.ingredients-images img {
   width: 10rem;
+  height: 10rem;
+  object-fit: none;
+  object-position: 28% 40%;
   border-radius: 50%;
   border: 5px solid rgb(85, 85, 85, 0.5);
 }
