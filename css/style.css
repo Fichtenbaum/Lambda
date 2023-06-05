@@ -244,3 +244,65 @@ li {
   border-radius: 50%;
   border: 5px solid rgb(85, 85, 85, 0.5);
 }
+
+.menu {
+  background-image: url(/img/pattern-menue-section.png);
+  display: flex;
+  justify-content: center;
+  gap: 14.4rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  gap: 3.8rem;
+}
+
+.article img {
+  margin-top: -1.8rem;
+  margin-bottom: -1rem;
+  align-self: center;
+}
+
+.menu-header {
+  text-align: center;
+  color: #cc9900;
+  margin-top: 3rem;
+}
+
+.menu-meal {
+  display: flex;
+  align-self: stretch;
+  justify-content: space-between;
+  font-family: "Yeseva One", cursive;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #cc9900;
+  border-bottom: 1px solid;
+  padding-bottom: 1.5rem;
+}
+
+.meal-text {
+  margin-top: 1.2rem;
+}
+
+.special {
+  border: 1px solid;
+  padding: 10px;
+  border-color: #cc9900;
+  position: relative;
+}
+
+.special:after {
+  content: "Special";
+  position: absolute;
+  background-color: #cc9900;
+  top: -35%;
+  right: -0.3%;
+  padding: 0.7rem 1.4rem;
+  color: #fff;
+  font-family: "Lato", Regular;
+  font-size: 1.4rem;
+}
