@@ -40,7 +40,7 @@
   height: 100%;
 }
 
-li {
+.header-nav-list li {
   display: flex;
   position: relative;
   align-items: center;
@@ -77,7 +77,7 @@ li {
 
 .header-social {
   display: flex;
-  list-style: none;
+  /* list-style: none; */
   gap: 2rem;
 }
 
@@ -167,20 +167,15 @@ li {
   max-width: 105rem;
 }
 
+.about-header {
+  color: #cc9900;
+}
+
 .about-content {
   display: flex;
   align-items: center;
   flex-direction: column;
   padding-top: 3rem;
-}
-
-.about-header {
-  text-align: center;
-  color: #cc9900;
-}
-
-.divider {
-  margin-top: 1.5rem;
 }
 
 .about-text {
@@ -250,31 +245,29 @@ li {
   display: flex;
   justify-content: center;
   gap: 14.4rem;
-  padding-top: 10rem;
+  padding-top: 4rem;
   padding-bottom: 10rem;
 }
 
-.article {
-  display: flex;
-  flex-direction: column;
-  gap: 3.8rem;
+.meal-list li {
+  position: relative;
+  margin-top: 2rem;
+  padding: 1rem;
 }
 
-.article img {
-  margin-top: -1.8rem;
-  margin-bottom: -1rem;
-  align-self: center;
+.meal-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6.8rem;
 }
 
 .menu-header {
-  text-align: center;
   color: #cc9900;
-  margin-top: 3rem;
 }
 
-.menu-meal {
+.meal {
   display: flex;
-  align-self: stretch;
   justify-content: space-between;
   font-family: "Yeseva One", cursive;
   font-size: 2rem;
@@ -282,6 +275,7 @@ li {
   color: #cc9900;
   border-bottom: 1px solid;
   padding-bottom: 1.5rem;
+  width: 43.5rem;
 }
 
 .meal-text {
@@ -290,16 +284,14 @@ li {
 
 .special {
   border: 1px solid;
-  padding: 10px;
-  border-color: #cc9900;
-  position: relative;
+  color: #cc9900;
 }
 
 .special:after {
   content: "Special";
   position: absolute;
   background-color: #cc9900;
-  top: -35%;
+  top: -31%;
   right: -0.3%;
   padding: 0.7rem 1.4rem;
   color: #fff;

@@ -34,10 +34,19 @@ body {
   font-family: "Yeseva One", cursive;
   font-size: 3.6rem;
   font-weight: 500;
+  /* color: #cc9900; */
 }
 
 .section-text {
   font-size: 1.6rem;
   line-height: 1.5;
   font-family: "Lato", Regular;
+}
+
+li {
+  list-style: none;
+}
+
+.divider {
+  margin-top: 1.5rem;
 }
