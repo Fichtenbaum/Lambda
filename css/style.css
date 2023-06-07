@@ -243,57 +243,89 @@
   background-image: url(/img/pattern-menue-section.png);
   display: flex;
   justify-content: center;
-  gap: 14.4rem;
   padding-top: 4rem;
-  padding-bottom: 10rem;
-}
-
-.meal-list li {
-  position: relative;
-  margin-top: 2rem;
-  padding: 1rem;
+  padding-bottom: 4rem;
 }
 
 .meal-group {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.meal-group-list {
+  columns: 2 45.5rem;
+  column-gap: 14.5rem;
   margin-top: 6.8rem;
+}
+
+.meal-group-list li {
+  margin-bottom: 6.8rem;
 }
 
 .menu-header {
   color: #cc9900;
 }
 
+.meal-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.8rem;
+  gap: 2rem;
+}
+
+.meal-list dl {
+  display: inline-block;
+  position: relative;
+}
+
 .meal {
+  width: 45.5rem;
+  padding: 1rem;
+}
+
+.meal-line {
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid;
+  padding-bottom: 1.5rem;
+  color: #cc9900;
   font-family: "Yeseva One", cursive;
   font-size: 2rem;
   font-weight: 500;
-  color: #cc9900;
-  border-bottom: 1px solid;
-  padding-bottom: 1.5rem;
-  width: 43.5rem;
 }
 
 .meal-text {
+  color: #4c4c4c;
   margin-top: 1.2rem;
 }
 
-.special {
-  border: 1px solid;
-  color: #cc9900;
+.meal.special::before,
+.meal.special::after {
+  opacity: 1;
 }
 
-.special:after {
+.meal::before {
+  border: 1px solid;
+  color: #cc9900;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.meal::after {
   content: "Special";
   position: absolute;
   background-color: #cc9900;
   top: -31%;
-  right: -0.3%;
+  right: -0.5%;
   padding: 0.7rem 1.4rem;
   color: #fff;
   font-family: "Lato", Regular;
   font-size: 1.4rem;
+  opacity: 0;
 }
