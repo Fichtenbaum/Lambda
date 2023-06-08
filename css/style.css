@@ -286,7 +286,7 @@
 .meal-line {
   display: flex;
   justify-content: space-between;
-  border-bottom: 0.06px solid #fbf7c0;
+  border-bottom: 0.06px solid rgb(200, 159, 45, 0.2);
   padding-bottom: 1.5rem;
   color: #c89f2d;
   font-family: "Yeseva One", cursive;
@@ -303,6 +303,7 @@
 .meal.special::before {
   opacity: 0.3;
 }
+
 .meal.special::after {
   opacity: 0.6;
 }
@@ -322,13 +323,13 @@
 .meal::after {
   content: "Special";
   position: absolute;
-  top: 0;
-  right: 0;
+  top: -9px;
+  right: -10px;
   background-color: #c89f2d;
   padding: 4px 12px;
   color: #f8fafa;
   font-family: "Lato", Regular;
   font-size: 1.4rem;
   opacity: 0;
-  transform: translate(15%, -145%);
+  transform: translateY(-100%);
 }
