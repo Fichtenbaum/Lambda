@@ -240,7 +240,13 @@
 }
 
 .menu {
-  background-image: url(/img/pattern-menue-section.png);
+  box-shadow: inset 0 0 25px rgba(1, 1, 1, 0.14);
+  background-image: linear-gradient(
+      134deg,
+      rgb(32, 90, 91, 0%),
+      rgb(255, 255, 255, 100%)
+    ),
+    url(/img/pattern-menue-section.png);
   display: flex;
   justify-content: center;
   padding-top: 4rem;
@@ -280,13 +286,13 @@
 .meal-line {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid;
+  border-bottom: 0.06px solid #fbf7c0;
   padding-bottom: 1.5rem;
-  color: #cc9900;
+  color: #c89f2d;
   font-family: "Yeseva One", cursive;
   font-size: 2rem;
   font-weight: 500;
-  width: 43.3rem;
+  width: 43rem;
 }
 
 .meal-text {
@@ -294,14 +300,16 @@
   margin-top: 1.2rem;
 }
 
-.meal.special::before,
+.meal.special::before {
+  opacity: 0.3;
+}
 .meal.special::after {
-  opacity: 1;
+  opacity: 0.6;
 }
 
 .meal::before {
   border: 1px solid;
-  color: #cc9900;
+  color: #c89f2d;
   content: "";
   position: absolute;
   left: -10px;
@@ -314,11 +322,13 @@
 .meal::after {
   content: "Special";
   position: absolute;
-  background-color: #cc9900;
-  padding: 0.7rem 1.4rem;
-  color: #fff;
+  top: 0;
+  right: 0;
+  background-color: #c89f2d;
+  padding: 4px 12px;
+  color: #f8fafa;
   font-family: "Lato", Regular;
   font-size: 1.4rem;
   opacity: 0;
-  transform: translate(372px, -109px);
+  transform: translate(15%, -145%);
 }
