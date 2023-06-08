@@ -247,20 +247,18 @@
   padding-bottom: 4rem;
 }
 
-.meal-group {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .meal-group-list {
-  columns: 2 45.5rem;
+  columns: 2;
   column-gap: 14.5rem;
   margin-top: 6.8rem;
 }
 
-.meal-group-list li {
+.meal-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 6.8rem;
+  break-inside: avoid;
 }
 
 .menu-header {
@@ -271,17 +269,12 @@
   display: flex;
   flex-direction: column;
   margin-top: 2.8rem;
-  gap: 2rem;
+  gap: 3.8rem;
 }
 
 .meal-list dl {
   display: inline-block;
   position: relative;
-}
-
-.meal {
-  width: 45.5rem;
-  padding: 1rem;
 }
 
 .meal-line {
@@ -293,6 +286,7 @@
   font-family: "Yeseva One", cursive;
   font-size: 2rem;
   font-weight: 500;
+  width: 43.3rem;
 }
 
 .meal-text {
@@ -310,10 +304,10 @@
   color: #cc9900;
   content: "";
   position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
+  left: -10px;
+  right: -10px;
+  top: -10px;
+  bottom: -10px;
   opacity: 0;
 }
 
@@ -321,11 +315,10 @@
   content: "Special";
   position: absolute;
   background-color: #cc9900;
-  top: -31%;
-  right: -0.5%;
   padding: 0.7rem 1.4rem;
   color: #fff;
   font-family: "Lato", Regular;
   font-size: 1.4rem;
   opacity: 0;
+  transform: translate(372px, -109px);
 }
