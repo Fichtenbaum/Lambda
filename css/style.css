@@ -40,7 +40,7 @@
   height: 100%;
 }
 
-li {
+.header-nav-list li {
   display: flex;
   position: relative;
   align-items: center;
@@ -77,7 +77,6 @@ li {
 
 .header-social {
   display: flex;
-  list-style: none;
   gap: 2rem;
 }
 
@@ -167,20 +166,15 @@ li {
   max-width: 105rem;
 }
 
+.about-header {
+  color: #cc9900;
+}
+
 .about-content {
   display: flex;
   align-items: center;
   flex-direction: column;
   padding-top: 3rem;
-}
-
-.about-header {
-  text-align: center;
-  color: #cc9900;
-}
-
-.divider {
-  margin-top: 1.5rem;
 }
 
 .about-text {
@@ -243,4 +237,97 @@ li {
   object-position: 28% 40%;
   border-radius: 50%;
   border: 5px solid rgb(85, 85, 85, 0.5);
+}
+
+.menu {
+  box-shadow: inset 0 0 25px rgba(1, 1, 1, 0.14);
+  background-image: linear-gradient(
+      134deg,
+      rgb(32, 90, 91, 0%),
+      rgb(255, 255, 255, 100%)
+    ),
+    url(/img/pattern-menue-section.png);
+  display: flex;
+  justify-content: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.meal-group-list {
+  columns: 2;
+  column-gap: 14.5rem;
+  margin-top: 6.8rem;
+}
+
+.meal-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 6.8rem;
+  break-inside: avoid;
+}
+
+.menu-header {
+  color: #cc9900;
+}
+
+.meal-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.8rem;
+  gap: 3.8rem;
+}
+
+.meal-list dl {
+  position: relative;
+}
+
+.meal-line {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.06px solid rgb(200, 159, 45, 0.2);
+  padding-bottom: 1.5rem;
+  color: #c89f2d;
+  font-family: "Yeseva One", cursive;
+  font-size: 2rem;
+  font-weight: 500;
+  width: 43rem;
+}
+
+.meal-text {
+  color: #4c4c4c;
+  margin-top: 1.2rem;
+}
+
+.meal.special::before {
+  opacity: 0.3;
+}
+
+.meal.special::after {
+  opacity: 0.6;
+}
+
+.meal::before {
+  border: 1px solid #c89f2d;
+  content: "";
+  position: absolute;
+  left: -10px;
+  right: -10px;
+  top: -10px;
+  bottom: -10px;
+  opacity: 0;
+}
+
+.meal::after {
+  content: "Special";
+  position: absolute;
+  top: -9px;
+  right: -10px;
+  background-color: #c89f2d;
+  padding: 4px 12px;
+  color: #f8fafa;
+  font-family: "Lato", Regular;
+  font-size: 1.4rem;
+  opacity: 0;
+  transform: translateY(-100%);
 }

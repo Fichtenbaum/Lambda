@@ -41,3 +41,11 @@ body {
   line-height: 1.5;
   font-family: "Lato", Regular;
 }
+
+li {
+  list-style: none;
+}
+
+.divider {
+  margin-top: 1.5rem;
+}
