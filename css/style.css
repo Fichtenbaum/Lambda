@@ -279,7 +279,6 @@
 }
 
 .meal-list dl {
-  display: inline-block;
   position: relative;
 }
 
@@ -309,8 +308,7 @@
 }
 
 .meal::before {
-  border: 1px solid;
-  color: #c89f2d;
+  border: 1px solid #c89f2d;
   content: "";
   position: absolute;
   left: -10px;
