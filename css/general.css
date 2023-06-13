@@ -23,13 +23,6 @@ html {
   position: relative;
 }
 
-body {
-  font-family: "Yeseva One", cursive;
-  line-height: 1;
-  font-weight: 400;
-  color: #555;
-}
-
 .section-heading {
   font-family: "Yeseva One", cursive;
   font-size: 3.6rem;

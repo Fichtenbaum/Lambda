@@ -26,7 +26,6 @@
 .logo {
   margin-right: auto;
   color: #fff;
-  font-size: 3.6rem;
 }
 
 .nav {
@@ -103,6 +102,7 @@
 }
 
 .content {
+  font-family: "Yeseva One", cursive;
   font-size: 9rem;
   line-height: 1.4;
   text-align: center;
@@ -153,7 +153,7 @@
 }
 
 .about {
-  background-image: url(/img/pattern-about-section.png);
+  background-image: url(/img/pattern-ellipse.png);
   display: flex;
   justify-content: center;
   padding-top: 7.5rem;
@@ -227,7 +227,7 @@
 .ingredients-images {
   display: flex;
   gap: 3rem;
-  margin-top: 7rem;
+  margin-top: 6rem;
 }
 
 .ingredients-images img {
@@ -370,7 +370,7 @@
 .reviews-text::after {
   position: absolute;
   top: 0;
-  left: 25px;
+  left: 2.5rem;
   content: "“";
   font-size: 9.6rem;
   color: #f2f4f4;
