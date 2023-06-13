@@ -26,7 +26,6 @@
 .logo {
   margin-right: auto;
   color: #fff;
-  font-size: 3.6rem;
 }
 
 .nav {
@@ -103,6 +102,7 @@
 }
 
 .content {
+  font-family: "Yeseva One", cursive;
   font-size: 9rem;
   line-height: 1.4;
   text-align: center;
@@ -153,7 +153,7 @@
 }
 
 .about {
-  background-image: url(/img/pattern-about-section.png);
+  background-image: url(/img/pattern-ellipse.png);
   display: flex;
   justify-content: center;
   padding-top: 7.5rem;
@@ -227,7 +227,7 @@
 .ingredients-images {
   display: flex;
   gap: 3rem;
-  margin-top: 7rem;
+  margin-top: 6rem;
 }
 
 .ingredients-images img {
@@ -330,4 +330,57 @@
   font-size: 1.4rem;
   opacity: 0;
   transform: translateY(-100%);
+}
+
+.reviews {
+  background-image: url(/img/review-background.png);
+  display: flex;
+  justify-content: center;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.reviews-body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 77rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.reviews-header {
+  color: #fff;
+}
+
+.reviews-text {
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 4.5rem;
+  color: #dde0df;
+  font-weight: 700;
+  font-family: "Gentium Book Basic";
+  padding-left: 8.5rem;
+  padding-right: 8.5rem;
+  margin-top: 2.6rem;
+  position: relative;
+}
+
+.reviews-text::after {
+  position: absolute;
+  top: 0;
+  left: 2.5rem;
+  content: "“";
+  font-size: 9.6rem;
+  color: #f2f4f4;
+  font-family: "Georgia";
+  opacity: 0.47;
+}
+
+.caption {
+  font-family: "Lato", Regular;
+  font-size: 1.8rem;
+  margin-top: 4.5rem;
+  color: #fff;
 }
