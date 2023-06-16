@@ -390,3 +390,98 @@
   margin-top: 4.5rem;
   color: #fff;
 }
+
+.reservation {
+  background-image: linear-gradient(
+      -13deg,
+      rgb(12, 52, 53, 0%),
+      rgb(255, 255, 255, 100%)
+    ),
+    url(/img/pattern-ellipse.png);
+  box-shadow: inset 0 0 25px rgba(1, 1, 1, 0.05);
+  display: flex;
+  gap: 3rem;
+  padding: 10rem 21.4rem 10rem 21.4rem;
+}
+
+.reservation-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10rem;
+}
+
+.reservation-heading {
+  color: #cc9900;
+}
+
+.reservation-text {
+  text-align: center;
+  margin-top: 2.1rem;
+  width: 41rem;
+  color: #4c4c4c;
+}
+
+.reservation-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3rem;
+  row-gap: 3rem;
+  margin-top: 4.5rem;
+}
+
+.reservation-form label {
+  display: block;
+  font-family: "Open Sans", Bold;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #c9a131;
+  margin-bottom: 1rem;
+}
+
+.reservation-form input,
+.reservation-form select {
+  width: 100%;
+  padding: 1.2rem;
+  font-family: "Open Sans", Regular;
+  font-size: 1.6rem;
+  border: 1px solid #c8c6c6;
+  background-color: rgba(255, 255, 255, 0.4);
+  opacity: 0.8;
+}
+
+.reservation-form input::placeholder,
+.reservation-form input:last-child,
+.reservation-form select {
+  color: #7c7c7c;
+  font-style: italic;
+}
+
+.reservation *:focus {
+  outline: none;
+  outline: 1px solid #c89f2d;
+  border: none;
+}
+
+option {
+  font-family: "Open Sans", Bold;
+  color: #4c4c4c;
+}
+
+.btn-reservation {
+  cursor: pointer;
+  margin-top: 3.2rem;
+  padding: 1.2rem 6.2rem;
+  font-size: 1.6rem;
+  font-family: "Open Sans", Regular;
+  color: #ffffff;
+  font-weight: 400;
+  background-color: rgba(200, 159, 45, 0.98);
+  border: 1px solid #c89f2d;
+  opacity: 0.98;
+}
+
+.btn-reservation:hover {
+  opacity: 0.5;
+  transition: all 0.5s;
+}

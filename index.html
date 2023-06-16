@@ -9,9 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:wght@400;700&family=Gentium+Plus:wght@700&family=Lato&family=Noto+Serif+Georgian:wght@400;700&family=Yeseva+One&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:wght@400;700&family=Gentium+Plus:wght@700&family=Lato&family=Noto+Serif+Georgian:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Yeseva+One&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/general.css" />
 
@@ -320,6 +321,82 @@
           </blockquote>
           <figcaption class="caption">- food inc, New York</figcaption>
         </figure>
+      </section>
+      <section class="reservation">
+        <img
+          class="reservation1"
+          src="/img/reservation1.png"
+          alt="Meal on the plate"
+        />
+        <img
+          class="reservation2"
+          src="/img/reservation2.png"
+          alt="Fruits plate"
+        />
+        <article class="reservation-body">
+          <h3 class="section-heading reservation-heading">
+            Just the right food
+          </h3>
+          <img
+            class="white-divider"
+            src="/img/divider.png"
+            alt="Decorated divider"
+          />
+          <p class="reservation-text section-text">
+            If you’ve been to one of our restaurants, you’ve seen – and tasted –
+            what keeps our customers coming back for more. Perfect materials and
+            freshly baked food.
+          </p>
+          <p class="reservation-text section-text">
+            Delicious Lambda cakes, muffins, and gourmet coffees make us hard to
+            resist! Stop in today and check us out! Perfect materials and
+            freshly baked food.
+          </p>
+          <form class="reservation-form" action="#" name="sign-up" netlify>
+            <div>
+              <label for="name">Name</label>
+              <input
+                id="name"
+                type="text"
+                placeholder="your name *"
+                name="name"
+                required
+              />
+            </div>
+            <div>
+              <label for="email">Name</label>
+              <input
+                id="email"
+                type="text"
+                placeholder="your email *"
+                name="email"
+                required
+              />
+            </div>
+            <div>
+              <label for="date">Date</label>
+              <input
+                id="date"
+                type="date"
+                placeholder="date *"
+                name="reservation-date"
+                required
+              />
+            </div>
+            <div>
+              <label for="party">party number</label>
+              <select id="party" name="party" required>
+                <option value="">party number</option>
+                <option value="one">One persone</option>
+                <option value="two">Two persones</option>
+                <option value="four">Four persones</option>
+                <option value="more">More then 4 persones</option>
+                <option value="full">Book full hall</option>
+              </select>
+            </div>
+          </form>
+          <button class="btn-reservation">Book now!</button>
+        </article>
       </section>
     </div>
   </body>
