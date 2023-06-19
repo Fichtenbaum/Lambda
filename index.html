@@ -323,17 +323,19 @@
         </figure>
       </section>
       <section class="reservation">
-        <img
-          class="reservation1"
-          src="/img/reservation1.png"
-          alt="Meal on the plate"
-        />
-        <img
-          class="reservation2"
-          src="/img/reservation2.png"
-          alt="Fruits plate"
-        />
-        <article class="reservation-body">
+        <div class="reservation-images">
+          <img
+            class="reservation-image1"
+            src="/img/reservation1.png"
+            alt="Meal on the plate"
+          />
+          <img
+            class="reservation-image2"
+            src="/img/reservation2.png"
+            alt="Fruits plate"
+          />
+        </div>
+        <form class="reservation-body" action="#">
           <h3 class="section-heading reservation-heading">
             Just the right food
           </h3>
@@ -352,51 +354,59 @@
             resist! Stop in today and check us out! Perfect materials and
             freshly baked food.
           </p>
-          <form class="reservation-form" action="#" name="sign-up" netlify>
-            <div>
-              <label for="name">Name</label>
-              <input
-                id="name"
-                type="text"
-                placeholder="your name *"
-                name="name"
-                required
-              />
+          <div class="reservation-fields">
+            <div class="input-field">
+              <label
+                >Name
+                <input
+                  id="name"
+                  type="text"
+                  placeholder="your name *"
+                  name="name"
+                  required
+                />
+              </label>
             </div>
-            <div>
-              <label for="email">Name</label>
-              <input
-                id="email"
-                type="text"
-                placeholder="your email *"
-                name="email"
-                required
-              />
+            <div class="input-field">
+              <label
+                >Name
+                <input
+                  id="email"
+                  type="text"
+                  placeholder="your email *"
+                  name="email"
+                  required
+                />
+              </label>
             </div>
-            <div>
-              <label for="date">Date</label>
-              <input
-                id="date"
-                type="date"
-                placeholder="date *"
-                name="reservation-date"
-                required
-              />
+            <div class="input-field">
+              <label
+                >Date
+                <input
+                  id="date"
+                  type="date"
+                  placeholder="date *"
+                  name="reservation-date"
+                  required
+                />
+              </label>
             </div>
-            <div>
-              <label for="party">party number</label>
-              <select id="party" name="party" required>
-                <option value="">party number</option>
-                <option value="one">One persone</option>
-                <option value="two">Two persones</option>
-                <option value="four">Four persones</option>
-                <option value="more">More then 4 persones</option>
-                <option value="full">Book full hall</option>
-              </select>
+            <div class="input-field">
+              <label
+                >Party number
+                <select id="party" name="party" required>
+                  <option value="">party number</option>
+                  <option value="one">One persone</option>
+                  <option value="two">Two persones</option>
+                  <option value="four">Four persones</option>
+                  <option value="more">More then 4 persones</option>
+                  <option value="full">Book full hall</option>
+                </select>
+              </label>
             </div>
-          </form>
+          </div>
           <button class="btn-reservation">Book now!</button>
-        </article>
+        </form>
       </section>
     </div>
   </body>
