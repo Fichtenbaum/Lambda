@@ -417,8 +417,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-left: 6rem;
-  margin-right: 6rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
 
 .reservation-heading {
@@ -439,6 +439,11 @@
   margin-top: 4.5rem;
 }
 
+.input-name {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
 .input-field {
   font-family: "Open Sans", Bold;
   font-size: 1.4rem;
@@ -451,11 +456,10 @@
   border: 1px solid #c89f2d;
 }
 
-.reservation-fields input,
-.reservation-fields select {
+.input-element,
+.select-element {
   width: 100%;
   padding: 1.2rem;
-  margin-top: 1rem;
   font-family: "Open Sans", Regular;
   font-size: 1.6rem;
   border: 1px solid #c8c6c6;
@@ -463,14 +467,14 @@
   opacity: 0.8;
 }
 
-.reservation-fields input::placeholder,
-.reservation-fields input:last-child,
-.reservation-fields select {
+.input-element::placeholder,
+.input-element:last-child,
+.select-element {
   color: #7c7c7c;
   font-style: italic;
 }
 
-.reservation-fields option {
+.option-element {
   font-family: "Open Sans", Bold;
   color: #4c4c4c;
 }

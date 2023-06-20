@@ -324,16 +324,8 @@
       </section>
       <section class="reservation">
         <div class="reservation-images">
-          <img
-            class="reservation-image1"
-            src="/img/reservation1.png"
-            alt="Meal on the plate"
-          />
-          <img
-            class="reservation-image2"
-            src="/img/reservation2.png"
-            alt="Fruits plate"
-          />
+          <img src="/img/reservation1.png" alt="Meal on the plate" />
+          <img src="/img/reservation2.png" alt="Fruits plate" />
         </div>
         <form class="reservation-body" action="#">
           <h3 class="section-heading reservation-heading">
@@ -356,9 +348,10 @@
           </p>
           <div class="reservation-fields">
             <div class="input-field">
-              <label
-                >Name
+              <label>
+                <span class="input-name">Name</span>
                 <input
+                  class="input-element"
                   id="name"
                   type="text"
                   placeholder="your name *"
@@ -368,9 +361,10 @@
               </label>
             </div>
             <div class="input-field">
-              <label
-                >Name
+              <label>
+                <span class="input-name">Name</span>
                 <input
+                  class="input-element"
                   id="email"
                   type="text"
                   placeholder="your email *"
@@ -380,9 +374,10 @@
               </label>
             </div>
             <div class="input-field">
-              <label
-                >Date
+              <label>
+                <span class="input-name">Date</span>
                 <input
+                  class="input-element"
                   id="date"
                   type="date"
                   placeholder="date *"
@@ -392,15 +387,25 @@
               </label>
             </div>
             <div class="input-field">
-              <label
-                >Party number
-                <select id="party" name="party" required>
-                  <option value="">party number</option>
-                  <option value="one">One persone</option>
-                  <option value="two">Two persones</option>
-                  <option value="four">Four persones</option>
-                  <option value="more">More then 4 persones</option>
-                  <option value="full">Book full hall</option>
+              <label>
+                <span class="input-name">Party number</span>
+                <select class="select-element" id="party" name="party" required>
+                  <option class="option-element" value="">party number</option>
+                  <option class="option-element" value="one">
+                    One persone
+                  </option>
+                  <option class="option-element" value="two">
+                    Two persones
+                  </option>
+                  <option class="option-element" value="four">
+                    Four persones
+                  </option>
+                  <option class="option-element" value="more">
+                    More then 4 persones
+                  </option>
+                  <option class="option-element" value="full">
+                    Book full hall
+                  </option>
                 </select>
               </label>
             </div>
