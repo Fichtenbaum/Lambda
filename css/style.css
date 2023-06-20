@@ -434,8 +434,7 @@
 .reservation-fields {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 3rem;
-  row-gap: 3rem;
+  gap: 3rem;
   margin-top: 4.5rem;
 }
 
