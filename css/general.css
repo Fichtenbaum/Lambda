@@ -29,6 +29,14 @@ html {
   font-weight: 400;
 }
 
+.header-orange {
+  color: #cc9900;
+}
+
+.header-white {
+  color: #fff;
+}
+
 .section-text {
   font-size: 1.6rem;
   line-height: 2.4rem;
@@ -41,4 +49,8 @@ li {
 
 .divider {
   margin-top: 1.5rem;
+}
+
+.button {
+  transition: all 0.3s;
 }

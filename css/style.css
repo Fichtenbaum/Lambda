@@ -131,7 +131,6 @@
   color: #fff;
   font-size: 1.8rem;
   padding: 2.1rem 5.3rem;
-  transition: all 0.5s;
 }
 
 .btn-black {
@@ -172,10 +171,6 @@
   max-width: 105rem;
 }
 
-.about-header {
-  color: #cc9900;
-}
-
 .about-content {
   display: flex;
   align-items: center;
@@ -212,10 +207,6 @@
   padding-bottom: 8.2rem;
   width: 57rem;
   background-color: rgba(0, 0, 0, 0.5);
-}
-
-.ingredients-header {
-  color: #fff;
 }
 
 .white-divider {
@@ -271,10 +262,6 @@
   align-items: center;
   margin-bottom: 6.8rem;
   break-inside: avoid;
-}
-
-.menu-header {
-  color: #cc9900;
 }
 
 .meal-list {
@@ -356,10 +343,6 @@
   padding-bottom: 8rem;
 }
 
-.reviews-header {
-  color: #fff;
-}
-
 .reviews-text {
   text-align: center;
   font-size: 2.5rem;
@@ -421,10 +404,6 @@
   padding-right: 6rem;
 }
 
-.reservation-heading {
-  color: #cc9900;
-}
-
 .reservation-text {
   text-align: center;
   margin-top: 2.1rem;
@@ -450,7 +429,8 @@
   color: #c9a131;
 }
 
-.input-field *:focus {
+.input-element:focus,
+.select-element:focus {
   outline: none;
   border: 1px solid #c89f2d;
 }
@@ -487,11 +467,9 @@
   color: #ffffff;
   font-weight: 400;
   background-color: rgba(200, 159, 45, 0.98);
-  border: 1px solid #c89f2d;
-  opacity: 0.98;
+  border: none;
 }
 
 .btn-reservation:hover {
-  opacity: 0.5;
-  transition: all 0.5s;
+  opacity: 0.8;
 }
