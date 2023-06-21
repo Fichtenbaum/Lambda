@@ -26,12 +26,20 @@ html {
 .section-heading {
   font-family: "Yeseva One", cursive;
   font-size: 3.6rem;
-  font-weight: 500;
+  font-weight: 400;
+}
+
+.header-orange {
+  color: #cc9900;
+}
+
+.header-white {
+  color: #fff;
 }
 
 .section-text {
   font-size: 1.6rem;
-  line-height: 1.5;
+  line-height: 2.4rem;
   font-family: "Lato", Regular;
 }
 
@@ -41,4 +49,8 @@ li {
 
 .divider {
   margin-top: 1.5rem;
+}
+
+.button {
+  transition: all 0.3s;
 }

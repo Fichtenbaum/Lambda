@@ -131,7 +131,6 @@
   color: #fff;
   font-size: 1.8rem;
   padding: 2.1rem 5.3rem;
-  transition: all 0.5s;
 }
 
 .btn-black {
@@ -172,10 +171,6 @@
   max-width: 105rem;
 }
 
-.about-header {
-  color: #cc9900;
-}
-
 .about-content {
   display: flex;
   align-items: center;
@@ -212,10 +207,6 @@
   padding-bottom: 8.2rem;
   width: 57rem;
   background-color: rgba(0, 0, 0, 0.5);
-}
-
-.ingredients-header {
-  color: #fff;
 }
 
 .white-divider {
@@ -271,10 +262,6 @@
   align-items: center;
   margin-bottom: 6.8rem;
   break-inside: avoid;
-}
-
-.menu-header {
-  color: #cc9900;
 }
 
 .meal-list {
@@ -356,10 +343,6 @@
   padding-bottom: 8rem;
 }
 
-.reviews-header {
-  color: #fff;
-}
-
 .reviews-text {
   text-align: center;
   font-size: 2.5rem;
@@ -389,4 +372,104 @@
   font-size: 1.8rem;
   margin-top: 4.5rem;
   color: #fff;
+}
+
+.reservation {
+  background-image: linear-gradient(
+      -13deg,
+      rgb(12, 52, 53, 0%),
+      rgb(255, 255, 255, 100%)
+    ),
+    url(/img/pattern-ellipse.png);
+  box-shadow: inset 0 0 25px rgba(1, 1, 1, 0.05);
+  display: flex;
+  gap: 5rem;
+  padding: 10rem 21.4rem 10rem 21.4rem;
+}
+
+.reservation-images {
+  display: flex;
+  gap: 3rem;
+}
+
+.reservation-images img {
+  object-fit: cover;
+}
+
+.reservation-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+.reservation-text {
+  text-align: center;
+  margin-top: 2.1rem;
+  color: #4c4c4c;
+}
+
+.reservation-fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-top: 4.5rem;
+}
+
+.input-name {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.input-field {
+  font-family: "Open Sans", Bold;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #c9a131;
+}
+
+.input-element:focus,
+.select-element:focus {
+  outline: none;
+  border: 1px solid #c89f2d;
+}
+
+.input-element,
+.select-element {
+  width: 100%;
+  padding: 1.2rem;
+  font-family: "Open Sans", Regular;
+  font-size: 1.6rem;
+  border: 1px solid #c8c6c6;
+  background-color: rgba(255, 255, 255, 0.4);
+  opacity: 0.8;
+}
+
+.input-element::placeholder,
+.input-element:last-child,
+.select-element {
+  color: #7c7c7c;
+  font-style: italic;
+}
+
+.option-element {
+  font-family: "Open Sans", Bold;
+  color: #4c4c4c;
+}
+
+.btn-reservation {
+  cursor: pointer;
+  margin-top: 3.2rem;
+  padding: 1.2rem 6.2rem;
+  font-size: 1.6rem;
+  font-family: "Open Sans", Regular;
+  color: #ffffff;
+  font-weight: 400;
+  background-color: rgba(200, 159, 45, 0.98);
+  border: none;
+}
+
+.btn-reservation:hover {
+  opacity: 0.8;
 }
