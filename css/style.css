@@ -79,26 +79,12 @@
   gap: 2rem;
 }
 
-.header-social-link:link,
-.header-social-link:visited {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 4px;
-  width: 3.2rem;
-  height: 3.2rem;
-  transition: all 0.5s;
-}
-
 .header-social-link:active,
 .header-social-link:hover {
   background-color: rgba(0, 0, 0, 0.2);
 }
-
-.social-icon {
+.header-social-icon {
   color: #dab33e;
-  width: 2rem;
-  height: 2rem;
 }
 
 .content {
@@ -472,4 +458,59 @@
 
 .btn-reservation:hover {
   opacity: 0.8;
+}
+
+.footer {
+  background-color: #191919;
+  display: flex;
+  padding: 6rem 23rem 6rem 23rem;
+  text-align: center;
+  gap: 12.5rem;
+}
+
+.footer-heading {
+  font-size: 2.1rem;
+  font-family: "Yeseva One", cursive;
+  font-weight: 400;
+  color: #fefefe;
+}
+
+.footer-text {
+  font-family: "Open Sans", Regular;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #fff;
+  margin-top: 2.2rem;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 5.5rem;
+}
+
+.footer-social-link:active,
+.footer-social-link:hover {
+  background-color: rgb(255, 255, 255, 0.2);
+}
+
+.footer-social-icon {
+  color: #ffffff;
+}
+
+.payment-system-images {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5.6rem;
+}
+
+.payment-icon {
+  width: 2rem;
+  height: 1.6rem;
+  background-color: #fff;
+  border-radius: 2px;
+  border: 1px solid #fff;
 }
