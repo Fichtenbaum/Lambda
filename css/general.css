@@ -58,6 +58,10 @@ html {
   font-weight: 400;
 }
 
+.text-white {
+  color: #fff;
+}
+
 li {
   list-style: none;
 }
