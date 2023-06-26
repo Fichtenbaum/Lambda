@@ -29,7 +29,7 @@
   <body>
     <div class="wrapper">
       <header class="header">
-        <div class="logo section-heading">LAMBDA</div>
+        <div class="logo section-heading heading">LAMBDA</div>
         <nav class="nav">
           <ul class="header-nav-list">
             <li>
@@ -44,18 +44,27 @@
         </nav>
         <ul class="header-social">
           <li>
-            <a href="#" class="header-social-link">
-              <ion-icon name="logo-twitter" class="social-icon"></ion-icon>
+            <a href="#" class="social-link header-social-link">
+              <ion-icon
+                name="logo-twitter"
+                class="header-social-icon social-icon"
+              ></ion-icon>
             </a>
           </li>
           <li>
-            <a href="#" class="header-social-link">
-              <ion-icon name="logo-youtube" class="social-icon"></ion-icon>
+            <a href="#" class="social-link header-social-link">
+              <ion-icon
+                name="logo-youtube"
+                class="header-social-icon social-icon"
+              ></ion-icon>
             </a>
           </li>
           <li>
-            <a href="#" class="header-social-link">
-              <ion-icon name="logo-facebook" class="social-icon"></ion-icon>
+            <a href="#" class="social-link header-social-link">
+              <ion-icon
+                name="logo-facebook"
+                class="header-social-icon social-icon"
+              ></ion-icon>
             </a>
           </li>
         </ul>
@@ -76,7 +85,9 @@
         <div class="about-body">
           <figure class="about-content">
             <figcaption>
-              <h2 class="section-heading header-orange">Just the right food</h2>
+              <h2 class="section-heading heading header-orange">
+                Just the right food
+              </h2>
             </figcaption>
             <img
               src="/img/divider.png"
@@ -98,7 +109,9 @@
       <section class="ingredients">
         <figure class="ingredients-body">
           <figcaption>
-            <h3 class="header-white section-heading">Fine ingredients</h3>
+            <h3 class="header-white section-heading heading">
+              Fine ingredients
+            </h3>
           </figcaption>
           <img
             class="white-divider"
@@ -122,7 +135,7 @@
         <ul class="meal-group-list">
           <li>
             <article class="meal-group">
-              <h3 class="section-heading header-orange">Appetisers</h3>
+              <h3 class="section-heading heading header-orange">Appetisers</h3>
               <img
                 src="/img/divider.png"
                 class="divider"
@@ -168,7 +181,9 @@
 
           <li>
             <article class="meal-group">
-              <h3 class="section-heading header-orange">Salads</h3>
+              <h3 class="section-heading heading heading header-orange">
+                Salads
+              </h3>
               <img
                 src="/img/divider.png"
                 class="divider"
@@ -214,7 +229,7 @@
 
           <li>
             <article class="meal-group">
-              <h3 class="section-heading header-orange">Starters</h3>
+              <h3 class="section-heading heading header-orange">Starters</h3>
               <img
                 src="/img/divider.png"
                 class="divider"
@@ -249,7 +264,7 @@
 
           <li>
             <article class="meal-group">
-              <h3 class="section-heading header-orange">Main Dishes</h3>
+              <h3 class="section-heading heading header-orange">Main Dishes</h3>
               <img
                 src="/img/divider.png"
                 class="divider"
@@ -307,7 +322,7 @@
       </section>
       <section class="reviews">
         <figure class="reviews-body">
-          <h3 class="header-white section-heading">Guest Reviews</h3>
+          <h3 class="header-white section-heading heading">Guest Reviews</h3>
           <img
             class="white-divider"
             src="/img/white-divider.png"
@@ -328,7 +343,9 @@
           <img src="/img/reservation2.png" alt="Fruits plate" />
         </div>
         <form class="reservation-body" action="#">
-          <h3 class="section-heading header-orange">Just the right food</h3>
+          <h3 class="section-heading heading header-orange">
+            Just the right food
+          </h3>
           <img
             class="white-divider"
             src="/img/divider.png"
@@ -349,7 +366,7 @@
               <label>
                 <span class="input-name">Name</span>
                 <input
-                  class="input-element"
+                  class="input-element text"
                   id="name"
                   type="text"
                   placeholder="your name *"
@@ -362,7 +379,7 @@
               <label>
                 <span class="input-name">Name</span>
                 <input
-                  class="input-element"
+                  class="input-element text"
                   id="email"
                   type="text"
                   placeholder="your email *"
@@ -375,7 +392,7 @@
               <label>
                 <span class="input-name">Date</span>
                 <input
-                  class="input-element"
+                  class="input-element text"
                   id="date"
                   type="date"
                   placeholder="date *"
@@ -387,7 +404,12 @@
             <div class="input-field">
               <label>
                 <span class="input-name">Party number</span>
-                <select class="select-element" id="party" name="party" required>
+                <select
+                  class="select-element text"
+                  id="party"
+                  name="party"
+                  required
+                >
                   <option class="option-element" value="">party number</option>
                   <option class="option-element" value="one">
                     One persone
@@ -408,9 +430,99 @@
               </label>
             </div>
           </div>
-          <button class="button btn-reservation">Book now!</button>
+          <button class="button btn-reservation text">Book now!</button>
         </form>
       </section>
+      <footer class="footer">
+        <div class="footer-item-container">
+          <h4 class="footer-heading">About us</h4>
+          <img
+            class="white-divider"
+            src="/img/white-divider.png"
+            alt="Decorated divider"
+          />
+          <p class="text-white text">
+            Lambda's new and expanded Chelsea location represents a truly
+            authentic <strong>Greek</strong> patisserie, featuring breakfasts of
+            fresh croissants and steaming bowls of café.<br />
+            Lamda the best restaurant in town
+          </p>
+        </div>
+        <div class="footer-item-container">
+          <h4 class="footer-heading">Opening Hours</h4>
+          <img
+            class="white-divider"
+            src="/img/white-divider.png"
+            alt="Decorated divider"
+          />
+          <p class="text-white text">
+            <strong>Mon-Thu:</strong> 7:00am-8:00pm<br />
+            <strong>Fri-Sun:</strong> 7:00am-10:00pm
+          </p>
+          <div class="payment-system-images">
+            <img
+              src="/img/american-express.png"
+              class="payment-icon"
+              alt="American-express-icon"
+            />
+            <img src="/img/paypal.png" class="payment-icon" alt="PayPal icon" />
+            <img src="img/visa.png" class="payment-icon" alt="Visa icon" />
+            <img
+              src="img/master-card.png"
+              class="payment-icon"
+              alt="Master Card icon"
+            />
+          </div>
+        </div>
+        <div class="footer-item-container">
+          <h4 class="footer-heading">Our Location</h4>
+          <img
+            class="white-divider"
+            src="/img/white-divider.png"
+            alt="Decorated divider"
+          />
+          <p class="text-white text">
+            <strong
+              >19th Paradise Street Sitia<br />
+              128 Meserole Avenue</strong
+            >
+          </p>
+          <ul class="footer-social">
+            <li>
+              <a href="#" class="footer-social-link social-link">
+                <ion-icon
+                  name="logo-twitter"
+                  class="footer-social-icon social-icon"
+                ></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer-social-link social-link">
+                <ion-icon
+                  name="logo-youtube"
+                  class="footer-social-icon social-icon"
+                ></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer-social-link social-link">
+                <ion-icon
+                  name="logo-facebook"
+                  class="footer-social-icon social-icon"
+                ></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer-social-link social-link">
+                <ion-icon
+                  name="newspaper-outline"
+                  class="footer-social-icon social-icon"
+                ></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
